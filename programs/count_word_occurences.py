@@ -1,6 +1,6 @@
 def count_word_occurences(sentence):
-    words= sentence.lower().split() # if we want to consider lower and upper case as same, convert all to lowercase
-    #words = sentence.split() # this will treat lower and upper case as separate word
+    #words= sentence.lower().split() # if we want to consider lower and upper case as same, convert all to lowercase
+    words = sentence.split() # this will treat lower and upper case as separate word
     word_frequency = {}
     
     for word in words:
